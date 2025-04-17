@@ -69,7 +69,7 @@ sprite_index = spr_player_hurt;
 image_index = 0;
 
 // Set Alarm 0 to run after 15 frames; that event stops the player's horizontal velocity, ending the knockback
-alarm[0] = 15;
+alarm[2] = 15;
 
 // Play the 'life lost' sound effect
 audio_play_sound(snd_life_lost_01, 0, 0);
