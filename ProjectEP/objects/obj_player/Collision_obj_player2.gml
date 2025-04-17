@@ -1,0 +1,1 @@
+can_talk_to_npc = true;
