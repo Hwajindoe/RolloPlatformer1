@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"Fireball",
+  "%Name":"sFireball",
   "bboxMode":2,
   "bbox_bottom":105,
   "bbox_left":44,
@@ -23,7 +23,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"29a22efe-88b1-497d-9454-8b9ae4b06df2","blendMode":0,"displayName":"default","isLocked":false,"name":"29a22efe-88b1-497d-9454-8b9ae4b06df2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Fireball",
+  "name":"sFireball",
   "nineSlice":{
     "$GMNineSliceData":"",
     "bottom":0,
@@ -46,15 +46,15 @@
   },
   "origin":9,
   "parent":{
-    "name":"Projectiles",
-    "path":"folders/Sprites/Projectiles.yy",
+    "name":"Mala",
+    "path":"folders/Sprites/Items/PowerUps/Mala.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"Fireball",
+    "%Name":"sFireball",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -78,7 +78,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Fireball",
+    "name":"sFireball",
     "playback":1,
     "playbackSpeed":6.0,
     "playbackSpeedType":0,
@@ -92,13 +92,13 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5dc3bb27-9088-4605-9d20-38a505fe23d4","path":"sprites/Fireball/Fireball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5dc3bb27-9088-4605-9d20-38a505fe23d4","path":"sprites/sFireball/sFireball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"fe2e00b3-0b16-4a95-8d72-f9a64477a356","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e5a44356-ddd3-45c4-acad-fc1d78e29bd9","path":"sprites/Fireball/Fireball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e5a44356-ddd3-45c4-acad-fc1d78e29bd9","path":"sprites/sFireball/sFireball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"4d952906-20b1-4b7d-a1c0-db969961d0b4","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e3f497d9-072f-45ca-a757-01f8801e91b0","path":"sprites/Fireball/Fireball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e3f497d9-072f-45ca-a757-01f8801e91b0","path":"sprites/sFireball/sFireball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"773a3378-32fb-4705-8df3-7212a453b358","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

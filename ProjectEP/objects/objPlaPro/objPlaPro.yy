@@ -14,7 +14,10 @@
     "name":"Player Projectiles",
     "path":"folders/Objects/Projectiles/Player Projectiles.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oProjectilesParent",
+    "path":"objects/oProjectilesParent/oProjectilesParent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -38,8 +41,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"Fireball",
-    "path":"sprites/Fireball/Fireball.yy",
+    "name":"sFireball",
+    "path":"sprites/sFireball/sFireball.yy",
   },
   "spriteMaskId":null,
   "visible":true,

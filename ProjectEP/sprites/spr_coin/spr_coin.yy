@@ -51,8 +51,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Items",
-    "path":"folders/Sprites/Items.yy",
+    "name":"collectables",
+    "path":"folders/Sprites/Items/collectables.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

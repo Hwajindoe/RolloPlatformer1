@@ -1,7 +1,7 @@
 event_inherited();
 
 // This is the amount of damage the enemy does to the player.
-damage = 1;
+damage = 20;
 
 // This sets the movement speed for the enemies.
 move_speed = 2;

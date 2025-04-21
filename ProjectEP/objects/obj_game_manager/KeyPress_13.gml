@@ -1,6 +1,6 @@
-// This checks if the game is NOT paused, in which case we want to pause it.
-if (!paused && !abilities_menu)
-{
+if (!mapopen){// This checks if the game is NOT paused, in which case we want to pause it.
+	if (!paused && !abilities_menu)
+	{
 	// Deactivate all instances except the current instance (which is the game manager).
 	// This pauses all other instances, so they don't do anything, and are not even drawn.
 	instance_deactivate_all(true);
@@ -13,17 +13,17 @@ if (!paused && !abilities_menu)
 
 	// Set 'paused' to true
 	abilities_menu = true;
-}
+	}
 
-else if (paused)
-{
+	else if (paused)
+	{
 	return
-}
+	}
 
 
 // Otherwise, if the game is already paused,
-else
-{
+	else
+	{
 
 	// Activate all instances, to resume their functionalities
 	instance_activate_all();
@@ -32,7 +32,9 @@ else
 
 	// Set 'paused' to false, as the game is now unpaused
 	abilities_menu = false;
+	}
 }
+
 
 /*
 

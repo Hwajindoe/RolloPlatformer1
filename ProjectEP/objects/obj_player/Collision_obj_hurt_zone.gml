@@ -1,5 +1,5 @@
 // This reduces the health by 1.
-hp -= 1;
+hp -= 20;
 
 // If the player still has hp left,
 if (hp > 0)
@@ -21,7 +21,7 @@ if (hp > 0)
 	// again.
 	in_knockback = true;
 	
-	alarm[0] = 20;
+	alarm[2] = 20;
 
 	// Play the 'life lost' sound effect
 	audio_play_sound(snd_life_lost_01, 0, 0);

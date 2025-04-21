@@ -10,8 +10,8 @@
   "name":"oHat",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player Projectiles",
-    "path":"folders/Objects/Projectiles/Player Projectiles.yy",
+    "name":"Hat",
+    "path":"folders/Objects/Items/Hat.yy",
   },
   "parentObjectId":{
     "name":"oProjectilesParent",

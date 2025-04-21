@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Projectiles",
-    "path":"folders/Sprites/Projectiles.yy",
+    "name":"Hat",
+    "path":"folders/Sprites/Items/PowerUps/Hat.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
