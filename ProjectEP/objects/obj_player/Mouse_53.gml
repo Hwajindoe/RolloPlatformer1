@@ -1,4 +1,4 @@
-if (!grounded && projectiles == true) {
+if (!grounded && projectiles && projectilesreset) {
     // Create the projectile
     instance_create_depth(x, y, depth-1, objPlaPro);
 	//gives the player a jumpo boost when the fireball is created

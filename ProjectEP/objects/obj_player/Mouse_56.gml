@@ -1,6 +1,6 @@
 
-if (!grounded && projectiles == true){
+if (!grounded && projectiles && projectilesreset){
 instance_create_depth(x,y,depth,objPlaPro);
-projectiles = false; 
+projectilesreset = false; 
 }
 

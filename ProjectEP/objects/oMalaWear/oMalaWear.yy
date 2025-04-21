@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oAbilitiesMala",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oMalaWear",
+  "eventList":[],
   "managed":true,
-  "name":"oAbilitiesMala",
+  "name":"oMalaWear",
   "overriddenProperties":[],
   "parent":{
-    "name":"Abilities Menu",
-    "path":"folders/Objects/UI/Buttons/Abilities Menu.yy",
+    "name":"Mala",
+    "path":"folders/Objects/Items/Mala.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sMalaItem",
-    "path":"sprites/sMalaItem/sMalaItem.yy",
+    "name":"sMalaWear",
+    "path":"sprites/sMalaWear/sMalaWear.yy",
   },
   "spriteMaskId":null,
   "visible":true,

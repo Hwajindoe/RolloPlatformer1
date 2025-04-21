@@ -12,7 +12,8 @@ event_inherited();
 coins = 0;// This variable stores the number of coins the player has collected.
 in_knockback = false;// This variable tells whether the player is currently in knockback (from being hit by an enemy). It will be true if it is, and false if not.
 defeated_object = obj_player_defeated;// This is the object that replaces the player once it is defeated.
-projectiles = true; 
+projectiles = false; 
+projectilesreset= false;
 canHat = true;// says that the player has the hat on and can throw it
 zoroHat = false; // doesnt have the zorohat on
 hatPut = false;// is currently not in the hatput animation
@@ -21,6 +22,7 @@ talking_to_npc = false;// arent talking to an npc
 canPunch = true; //can punch unless another animation is playing
 throwingHat = false;
 pickingHat = false;
+
 
 
 
