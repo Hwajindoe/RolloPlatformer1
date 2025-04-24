@@ -1,5 +1,5 @@
 // This checks if the game is NOT paused, in which case we want to pause it.
-if (!abilities_menu && !paused)
+if (!paused && !abilities_menu)
 {
 	// Deactivate all instances except the current instance (which is the game manager).
 	// This pauses all other instances, so they don't do anything, and are not even drawn.
@@ -14,12 +14,19 @@ if (!abilities_menu && !paused)
 	// Set 'paused' to true
 	abilities_menu = true;
 }
+
+else if (paused)
+{
+	return
+}
+
+
 // Otherwise, if the game is already paused,
 else
 {
+
 	// Activate all instances, to resume their functionalities
 	instance_activate_all();
-
 	// Destroy the pause menu Sequence, so the pause menu disappears
 	layer_sequence_destroy(abilities_menu_sequence);
 

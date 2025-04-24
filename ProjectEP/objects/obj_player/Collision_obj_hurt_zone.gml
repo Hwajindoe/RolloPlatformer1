@@ -21,7 +21,7 @@ if (hp > 0)
 	// again.
 	in_knockback = true;
 	
-	alarm[0] = 20;
+	alarm[2] = 20;
 
 	// Play the 'life lost' sound effect
 	audio_play_sound(snd_life_lost_01, 0, 0);

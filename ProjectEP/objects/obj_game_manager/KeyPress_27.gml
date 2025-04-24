@@ -14,6 +14,13 @@ if (!paused && !abilities_menu)
 	// Set 'paused' to true
 	paused = true;
 }
+
+else if (abilities_menu)
+{
+	return
+}
+
+
 // Otherwise, if the game is already paused,
 else
 {
